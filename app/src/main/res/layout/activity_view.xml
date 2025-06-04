@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+ https://za.pinterest.com/pin/80079699618054976/
+ -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -6,6 +9,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/icon"
     tools:context=".ViewActivity">
 
     <TextView
@@ -13,13 +17,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:textSize="35dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="50dp"
+        android:textStyle="bold"
         android:text="Bug Busters" />
 
     <Button
         android:id="@+id/btnTotalMinutes"
         android:layout_width="match_parent"
         android:layout_height="64dp"
+        android:backgroundTint="@color/black"
+        android:layout_margin="15dp"
         android:text="Total Minutes" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -34,6 +43,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginEnd="20dp"
             android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/black"
             android:text="Highest-rated Game And it's Genre"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/btnAverage"
@@ -48,6 +58,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginEnd="20dp"
             android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/black"
             android:text="Average Minutes (Per Day)"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -59,18 +70,21 @@
     <TextView
         android:id="@+id/tvContent"
         android:layout_width="match_parent"
-        android:layout_height="284dp"
-        android:text="" />
+        android:layout_height="500dp"
+        android:text=""
+        android:textSize="15dp" />
 
     <Button
         android:id="@+id/btnBack"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
         android:text="Back" />
 
     <Button
         android:id="@+id/btnExit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
         android:text="Exit" />
 </LinearLayout>

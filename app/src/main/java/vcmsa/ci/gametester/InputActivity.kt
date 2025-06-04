@@ -1,5 +1,9 @@
 package vcmsa.ci.gametester
-
+/*
+https://www.geeksforgeeks.org/radiobutton-in-kotlin/
+https://www.geeksforgeeks.org/exposed-drop-down-menu-in-android/
+https://www.geeksforgeeks.org/datepicker-in-kotlin/
+ */
 import android.content.Intent
 import android.os.Bundle
 import android.view.View

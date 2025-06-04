@@ -1,9 +1,9 @@
 # Game Tester Log
-•	Developer: Likhona Ngwenya
-•	Student Number: ST10446272
-•	Group: GR01
-•	Course: Higher Certificate in Mobile Application and Web Development (HMAW0501)
-•	Subject: IMAD5112
+-	Developer: Likhona Ngwenya
+-	Student Number: ST10446272
+-	Group: GR01
+-	Course: Higher Certificate in Mobile Application and Web Development (HMAW0501)
+-	Subject: IMAD5112
 ## Links
 •	GitHub Repository: https://github.com/ST10446272/Game-Tester-Log
 

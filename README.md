@@ -1,4 +1,4 @@
-# Meal App
+# Game Tester Log
 •	Developer: Likhona Ngwenya
 •	Student Number: ST10446272
 •	Group: GR01
